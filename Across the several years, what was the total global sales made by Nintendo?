@@ -1,7 +1,7 @@
-**Across the several years, what was the total global sales made by Nintendo?**
->library(ggplot2)
->ggplot(data = vgsales, aes(x = Year, y = Global_Sales,)) +
- > geom_line() +
- > labs(x = "Year",
-   > y = "Global_Sales",
->title = "Trend of Sales made by Nintendo")
+--Across the several years, what was the total global sales made by Nintendo?
+library(ggplot2)
+ggplot(data = vgsales, aes(x = Year, y = Global_Sales,)) +
+  geom_line() +
+  labs(x = "Year",
+    y = "Global_Sales",
+title = "Trend of Sales made by Nintendo")
